@@ -45,6 +45,8 @@ class Person
         puts self
         @knowledge_level += 10
         puts "Yay learning!!! Knowledge level increased to: #{knowledge_level}"
+        # puts "Yay learning!!! Knowledge level increased to: #{@knowledge_level}"
+        # puts "Yay learning!!! Knowledge level increased to: #{self.knowledge_level}"
         @knowledge_level -= 5
         puts "You forgot some stuff!!! Knowledge level decreased to: #{knowledge_level}"
 
